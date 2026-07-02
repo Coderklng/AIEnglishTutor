@@ -9,3 +9,5 @@ fastapi
 flask
 pydantic
 uvicorn
+playsound
+gtts
