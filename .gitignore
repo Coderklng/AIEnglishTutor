@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Database (Jo aap use kar rahe hain)
+*.db
+*.sqlite3
+
+# Audio Files (Jo aapne FOLDER_PATH mein set ki hain)
+../Audio/*.mp3
+
+# IDEs
+.vscode/
+.idea/
+
+# Environment Variables
+.env
+.env.local
+
+# Logs
+*.log

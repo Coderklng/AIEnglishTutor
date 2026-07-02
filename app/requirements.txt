@@ -1,0 +1,10 @@
+langchain
+langchain-groq
+langchain-core
+lancgain-community
+langgraph
+SpeechRecognition
+edge-tts
+fatsapi
+flask
+pydantic
