@@ -8,3 +8,4 @@ edge-tts
 fastapi
 flask
 pydantic
+uvicorn
