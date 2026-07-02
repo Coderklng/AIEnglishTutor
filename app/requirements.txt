@@ -9,5 +9,5 @@ fastapi
 flask
 pydantic
 uvicorn
-playsound
+playsound==1.2.2
 gtts
