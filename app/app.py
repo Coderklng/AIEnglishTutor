@@ -1,7 +1,6 @@
 from fastapi import FastAPI,BackgroundTasks
 from services.llm_service import ChatGroqService
 from services.ai_tutor_service import AIService
-import uvicorn
 import os 
 from dotenv import load_dotenv
 from schemas.request_tutor import ChatRequest
@@ -54,4 +53,5 @@ def get_session_history(session_id):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("app.app:app", host="0.0.0.0", port=8000)
+    port = os.getenv("PORT")
+    uvicorn.run("app.app:app", host="0.0.0.0", port=port)
