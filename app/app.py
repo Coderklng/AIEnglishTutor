@@ -54,4 +54,4 @@ def get_session_history(session_id):
 if __name__ == "__main__":
     import uvicorn
     port = os.getenv("PORT")
-    uvicorn.run("app.app:app", host="0.0.0.0", port=port)
+    uvicorn.run("app:app", host="0.0.0.0", port=port)
